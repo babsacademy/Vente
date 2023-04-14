@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <div className="flex justify-center md:justify-start space-x-4 mb-4">
-              <a href="https://wa.me/7670000000" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+              <a href="https://wa.me/773698046" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
                 Contact WhatsApp
               </a>
             </div>

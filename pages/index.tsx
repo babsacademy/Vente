@@ -1,10 +1,28 @@
+import React from 'react';
 
-import React from 'react'
-import Contact from '../components/Contact'
+const Contact = () => {
+  return (
+    <div className="mt-8">
+      <h2 className="text-lg font-semibold mb-2">Contactez-nous :</h2>
+      <ul className="list-disc list-inside">
+        <li>Téléphone : <a href="tel:+221760000000">76 000 00 00</a></li>
+        <li>Email : <a href="mailto:contact@senetourisme.com">contact@senetourisme.com</a></li>
+        <li>Adresse : Dakar, Sénégal</li>
+      </ul>
+    </div>
+  );
+};
 
 const HomePage = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
+      <head>
+        <title>Senetourisme.com - Le tourisme au Sénégal</title>
+        <meta name="description" content="Site web spécialisé dans le tourisme au Sénégal. Découvrez les meilleures destinations, activités, hébergements et plus encore." />
+        <meta name="keywords" content="Sénégal, tourisme, voyages, destinations, activités, hébergements, plage, safari" />
+        <meta name="author" content="Votre nom ou le nom de votre entreprise" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <div className="container mx-auto py-12">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">Senetourisme.com</h1>
@@ -28,7 +46,7 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
